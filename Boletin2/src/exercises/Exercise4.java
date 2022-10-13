@@ -29,22 +29,22 @@ public class Exercise4 {
 
 		// mostramos la tirada en formato cadena
 		switch (tirada1) {
-		case "UNO":
+		case "UNO", "uno":
 			System.out.println("1");
 			break;
-		case "DOS":
+		case "DOS", "dos":
 			System.out.println("2");
 			break;
-		case "TRES":
+		case "TRES", "tres":
 			System.out.println("3");
 			break;
-		case "CUATRO":
+		case "CUATRO", "cuatro":
 			System.out.println("4");
 			break;
-		case "CINCO":
+		case "CINCO", "cinco":
 			System.out.println("5");
 			break;
-		case "SEIS":
+		case "SEIS", "seis":
 			System.out.println("6");
 			break;
 		default:
@@ -59,22 +59,22 @@ public class Exercise4 {
 
 		// mostramos la segunda tirada en formato cadena
 		switch (tirada2) {
-		case "UNO":
+		case "UNO", "uno":
 			System.out.println("1");
 			break;
-		case "DOS":
+		case "DOS", "dos":
 			System.out.println("2");
 			break;
-		case "TRES":
+		case "TRES", "tres":
 			System.out.println("3");
 			break;
-		case "CUATRO":
+		case "CUATRO", "cuatro":
 			System.out.println("4");
 			break;
-		case "CINCO":
+		case "CINCO", "cinco":
 			System.out.println("5");
 			break;
-		case "SEIS":
+		case "SEIS", "seis":
 			System.out.println("6");
 			break;
 		default:
