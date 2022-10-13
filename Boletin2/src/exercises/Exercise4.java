@@ -18,34 +18,34 @@ public class Exercise4 {
 
 	public static void main(String[] args) {
 		// Bloque de variables
-		int tirada1;
-		int tirada2;
+		String tirada1;
+		String tirada2;
 		Scanner sc = new Scanner(System.in);
 
 		// Pedimos al usuario la primera tirada
 		System.out.print("Introduzca cuanto le salió en la primera tirada: ");
 		// Leemos de teclado
-		tirada1 = sc.nextInt();
+		tirada1 = sc.next();
 
 		// mostramos la tirada en formato cadena
 		switch (tirada1) {
-		case 1:
-			System.out.println("UNO");
+		case "UNO":
+			System.out.println("1");
 			break;
-		case 2:
-			System.out.println("DOS");
+		case "DOS":
+			System.out.println("2");
 			break;
-		case 3:
-			System.out.println("TRES");
+		case "TRES":
+			System.out.println("3");
 			break;
-		case 4:
-			System.out.println("CUATRO");
+		case "CUATRO":
+			System.out.println("4");
 			break;
-		case 5:
-			System.out.println("CINCO");
+		case "CINCO":
+			System.out.println("5");
 			break;
-		case 6:
-			System.out.println("SEIS");
+		case "SEIS":
+			System.out.println("6");
 			break;
 		default:
 			System.out.println("Es imposible el número introducido");
@@ -55,27 +55,27 @@ public class Exercise4 {
 		// Pedimos al usuario por la segunda tirada
 		System.out.print("Introduzca cuanto le salió en su segunda tirada: ");
 		// Leemos de teclado
-		tirada2 = sc.nextInt();
+		tirada2 = sc.next();
 
 		// mostramos la segunda tirada en formato cadena
 		switch (tirada2) {
-		case 1:
-			System.out.println("UNO");
+		case "UNO":
+			System.out.println("1");
 			break;
-		case 2:
-			System.out.println("DOS");
+		case "DOS":
+			System.out.println("2");
 			break;
-		case 3:
-			System.out.println("TRES");
+		case "TRES":
+			System.out.println("3");
 			break;
-		case 4:
-			System.out.println("CUATRO");
+		case "CUATRO":
+			System.out.println("4");
 			break;
-		case 5:
-			System.out.println("CINCO");
+		case "CINCO":
+			System.out.println("5");
 			break;
-		case 6:
-			System.out.println("SEIS");
+		case "SEIS":
+			System.out.println("6");
 			break;
 		default:
 			System.out.println("Es imposible el número introducido");
