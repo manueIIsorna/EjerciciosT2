@@ -4,17 +4,13 @@ import java.util.Scanner;
 
 /***
  * Escribe un algoritmo que le pida al usuario dos números. A continuación debe
- * mostrar el siguiente menú por pantalla: 
- * SUMAR LOS NÚMEROS 
- * RESTAR LOS NÚMEROS
- * MULTIPLICAR LOS NÚMEROS 
- * DIVIDIR LOS NÚMEROS 
+ * mostrar el siguiente menú por pantalla: SUMAR LOS NÚMEROS RESTAR LOS NÚMEROS
+ * MULTIPLICAR LOS NÚMEROS DIVIDIR LOS NÚMEROS
  * 
- * Después, el algoritmo debe
- * pedirle al usuario que selecciona una opción y que haga la operación que
- * marca esa opción, mostrando por último el resultado de la operación elegida
- * por el usuario. Si el usuario elige una opción incorrecta, el algoritmo se lo
- * hace saber al usuario y no haría nada.
+ * Después, el algoritmo debe pedirle al usuario que selecciona una opción y que
+ * haga la operación que marca esa opción, mostrando por último el resultado de
+ * la operación elegida por el usuario. Si el usuario elige una opción
+ * incorrecta, el algoritmo se lo hace saber al usuario y no haría nada.
  * 
  * 
  * @author misorna
@@ -40,20 +36,23 @@ public class Exercise3 {
 		System.out.println("Escriba 2 si quiere RESTAR LOS NÚMEROS");
 		System.out.println("Escriba 3 si quiere MULTIPLICAR LOS NÚMEROS");
 		System.out.println("Escriba 4 si quiere DIVIDIR LOS NÚMEROS");
-		
+
 		opcionMenu = sc.nextInt();
 		switch (opcionMenu) {
 		case 1:
-			System.out.println("El resultado sería "+ (num1 + num2));
+			System.out.println("El resultado sería " + (num1 + num2));
 			break;
 		case 2:
-			System.out.println("El resultado sería "+ (num1 - num2));
+			System.out.println("El resultado sería " + (num1 - num2));
 			break;
 		case 3:
-			System.out.println("El resultado sería "+ (num1 * num2));
+			System.out.println("El resultado sería " + (num1 * num2));
 			break;
 		case 4:
-			System.out.println("El resultado sería "+ (num1 / num2));
+			if (num2 == 0) {
+				System.err.println("No podría hacerse una división entre cero");
+			} else
+				System.out.println("El resultado sería " + (num1 / num2));
 			break;
 		default:
 			System.out.println("La opción introducida es incorrecta");

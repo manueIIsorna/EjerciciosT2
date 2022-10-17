@@ -20,6 +20,8 @@ public class Exercise4 {
 		// Bloque de variables
 		String tirada1;
 		String tirada2;
+		int valor1 = 0;
+		int valor2 = 0;
 		Scanner sc = new Scanner(System.in);
 
 		// Pedimos al usuario la primera tirada
@@ -31,21 +33,27 @@ public class Exercise4 {
 		switch (tirada1) {
 		case "UNO", "uno":
 			System.out.println("1");
+			valor1 = 1;
 			break;
 		case "DOS", "dos":
 			System.out.println("2");
+			valor1 = 2;
 			break;
 		case "TRES", "tres":
 			System.out.println("3");
+			valor1 = 3;
 			break;
 		case "CUATRO", "cuatro":
 			System.out.println("4");
+			valor1 = 4;
 			break;
 		case "CINCO", "cinco":
 			System.out.println("5");
+			valor1 = 5;
 			break;
 		case "SEIS", "seis":
 			System.out.println("6");
+			valor1 = 6;
 			break;
 		default:
 			System.out.println("Es imposible el número introducido");
@@ -61,21 +69,27 @@ public class Exercise4 {
 		switch (tirada2) {
 		case "UNO", "uno":
 			System.out.println("1");
+			valor2 = 1;
 			break;
 		case "DOS", "dos":
 			System.out.println("2");
+			valor2 = 2;
 			break;
 		case "TRES", "tres":
 			System.out.println("3");
+			valor2 = 3;
 			break;
 		case "CUATRO", "cuatro":
 			System.out.println("4");
+			valor2 = 4;
 			break;
 		case "CINCO", "cinco":
 			System.out.println("5");
+			valor2 = 5;
 			break;
 		case "SEIS", "seis":
 			System.out.println("6");
+			valor2 = 6;
 			break;
 		default:
 			System.out.println("Es imposible el número introducido");
@@ -83,7 +97,7 @@ public class Exercise4 {
 		}
 
 		// Mostramos la suma de ambas tiradas en formato numérico
-		System.out.println("La suma de ambas tiradas sería de " + (tirada1 + tirada2));
+		System.out.println("La suma de ambas tiradas sería de " + (valor1 + valor2));
 
 		// cerramos Scanner
 		sc.close();
