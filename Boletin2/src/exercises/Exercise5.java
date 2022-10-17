@@ -31,10 +31,10 @@ public class Exercise5 {
 		case 'E', 'e':
 			System.out.println("Remolques");
 			break;
-		case 'D':
+		case 'D', 'd':
 			System.out.println("Autobuses");
 			break;
-		case 'C':
+		case 'C', 'c':
 			System.out.print("Indique qué unidad exactamente: ");
 			tipoC = sc.nextByte(); // Leemos de teclado la unidad introducida
 
@@ -47,10 +47,10 @@ public class Exercise5 {
 				System.err.println("No existe un carnet dentro de ese rango");
 			}
 			break;
-		case 'A':
+		case 'A', 'a':
 			System.out.println("Motocicletas");
 			break;
-		case 'B':
+		case 'B', 'b':
 			System.out.print("Indique qué unidad exactamente: ");
 			tipoB = sc.nextByte(); // Leemos de teclado la unidad introducida
 
