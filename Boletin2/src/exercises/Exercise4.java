@@ -17,11 +17,12 @@ import java.util.Scanner;
 public class Exercise4 {
 
 	public static void main(String[] args) {
-		// Bloque de variables
-		String tirada1;
+		//Aquí declaramos las variables donde se almacenarán las dos tiradas de dados
+		String tirada1; 
 		String tirada2;
 		int valor1 = 0;
 		int valor2 = 0;
+		//Creo el Scanner
 		Scanner sc = new Scanner(System.in);
 
 		// Pedimos al usuario la primera tirada
